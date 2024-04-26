@@ -6,16 +6,26 @@
 
 #personajes {
     /* Complete el CSS aqui */
-}
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 
 .personaje {
 /* Complete el CSS aqui */
+margin: 1rem;
+border: 1px solid black;
 }
 
 .personaje__nombre {
 /* Complete el CSS aqui */
+text-align: center;
+color: red;
 }
 
 .personaje__imagen {
 /* Complete el CSS aqui */
+height: 200px;
+width: 200px;
 }
